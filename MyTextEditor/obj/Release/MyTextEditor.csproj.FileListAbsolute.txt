@@ -1,0 +1,13 @@
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\bin\Release\MyTextEditor.exe.config
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\bin\Release\MyTextEditor.exe
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\bin\Release\MyTextEditor.pdb
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\obj\Release\MainWindow.baml
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\obj\Release\MainWindow.g.cs
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\obj\Release\App.g.cs
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\obj\Release\MyTextEditor_MarkupCompile.cache
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\obj\Release\MyTextEditor.g.resources
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\obj\Release\MyTextEditor.Properties.Resources.resources
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\obj\Release\MyTextEditor.csproj.GenerateResource.Cache
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\obj\Release\MyTextEditor.csproj.CoreCompileInputs.cache
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\obj\Release\MyTextEditor.exe
+C:\Users\bezim\source\repos\MyTextEditor\MyTextEditor\obj\Release\MyTextEditor.pdb
