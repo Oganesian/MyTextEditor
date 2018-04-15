@@ -3,10 +3,50 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:MyTextEditor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Text Editor" Height="500" Width="625">
     <Grid>
-        
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Height="20" FontSize="14">
+            <MenuItem Header="File">
+                <MenuItem Header="New" Click="New_Click"/>
+                <MenuItem Header="Open" Click="Open_Click"/>
+                <MenuItem Header="Save" Click="Save_Click"/>
+                <MenuItem Header="Save as..." Click="SaveAs_Click"/>
+                <Separator></Separator>
+                <MenuItem Header="Exit" Click="Exit_Click"/>
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem Header="Undo" Click="Undo_Click"/>
+                <MenuItem Header="Redo" Click="Redo_Click"/>
+                <MenuItem Header="Copy" Click="Copy_Click"/>
+                <MenuItem Header="Cut" Click="Cut_Click"/>
+                <MenuItem Header="Paste" Click="Paste_Click"/>
+            </MenuItem>
+            <MenuItem Header="Find" Click="MenuItem_Find_Click"/>
+        </Menu>
+        <RichTextBox x:Name="textEditor" HorizontalAlignment="Center" Margin="0,19,0,0" Background="#272822" VerticalAlignment="Stretch" SelectionBrush="#4CFFFFFF" FontSize="14" FontFamily="Consolas">
+            <FlowDocument LineHeight="1" Foreground="white">
+                <Paragraph>
+                    <Run Text="abcdefghijkmnopqrstfuvwxyz"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="dddddddddddddd"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="rrrrr"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="qqqqss"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="zxczxczxczxczxczxczxc"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Grid Name="SearchGrid" VerticalAlignment="Bottom" Height="40" Background="#c7cbd1" Visibility="Collapsed">
+            <TextBox Name="SearchQuery" HorizontalAlignment="Left" Height="30" Margin="5,0,0,0" TextWrapping="NoWrap" BorderThickness="0" Text="Search..." VerticalAlignment="Center" Width="245" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>
+            <Button Content="Find" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="100" Height="30" BorderThickness="0" Background="#e0e2e6" Click="Find_Click"/>
+            <Button Content="Cancel" HorizontalAlignment="Right" Margin="0,0,150,0" VerticalAlignment="Center" Width="100" Height="30" BorderThickness="0" Background="#e0e2e6" Click="Cancel_Click"/>
+        </Grid>
     </Grid>
 </Window>
