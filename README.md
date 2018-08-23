@@ -4,5 +4,8 @@ Also, the system searches a text in file.
 The search word is highlighted. The idea is taken from the site [proglib.io](https://proglib.io/p/project-list/)
 
 ## Screenshots
+"File" Menu
 !["File" Menu](https://image.ibb.co/gBKRCe/1.png)
+
+Highlight search results
 ![Highlight search results](https://image.ibb.co/gndxJK/2.png)
