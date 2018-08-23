@@ -5,7 +5,7 @@ The search word is highlighted. The idea is taken from the site [proglib.io](htt
 
 ## Screenshots
 <h3>"File" Menu</h3>
-!["File" Menu](https://image.ibb.co/gBKRCe/1.png)
+<img src="https://image.ibb.co/gBKRCe/1.png" alt="'File' Menu" />
 
 <h3>Highlight search results</h3>
 ![Highlight search results](https://image.ibb.co/gndxJK/2.png)
